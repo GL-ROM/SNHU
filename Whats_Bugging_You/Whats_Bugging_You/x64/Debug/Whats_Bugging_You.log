@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\Gabriel\source\repos\Whats_Bugging_You\Whats_Bugging_You\Source.cpp(13,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\Gabriel\source\repos\Whats_Bugging_You\Whats_Bugging_You\Source.cpp(22,26): warning C4390: ';': empty controlled statement found; is this the intent?
+C:\Users\Gabriel\source\repos\Whats_Bugging_You\Whats_Bugging_You\Source.cpp(24,25): warning C4390: ';': empty controlled statement found; is this the intent?
+C:\Users\Gabriel\source\repos\Whats_Bugging_You\Whats_Bugging_You\Source.cpp(14,7): warning C4101: 'statement': unreferenced local variable
+  Whats_Bugging_You.vcxproj -> C:\Users\Gabriel\source\repos\Whats_Bugging_You\x64\Debug\Whats_Bugging_You.exe

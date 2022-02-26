@@ -1,0 +1,6 @@
+﻿  InterestCalculator.cpp
+C:\Users\Gabriel\source\repos\5-1 Project Gabriel Romero\InterestCalculator.cpp(224,3): warning C4551: function call missing argument list
+  Source.cpp
+C:\Users\Gabriel\source\repos\5-1 Project Gabriel Romero\Source.cpp(11,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Generating Code...
+  5-1 Project Gabriel Romero.vcxproj -> C:\Users\Gabriel\source\repos\5-1 Project Gabriel Romero\x64\Debug\5-1 Project Gabriel Romero.exe
