@@ -1,8 +1,0 @@
-﻿  Source.cpp
-C:\Users\Gabriel\source\repos\7-1 Project Gabriel Romero\Source.cpp(156,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  Generating code
-  Previous IPDB and IOBJ mismatch, fall back to full compilation.
-C:\Users\Gabriel\source\repos\7-1 Project Gabriel Romero\Source.cpp(240): warning C4715: 'specificItemSearch': not all control paths return a value
-  All 195 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  7-1 Project Gabriel Romero.vcxproj -> C:\Users\Gabriel\source\repos\7-1 Project Gabriel Romero\x64\Release\7-1 Project Gabriel Romero.exe
