@@ -1,0 +1,7 @@
+﻿  Source.cpp
+C:\Users\Gabriel\source\repos\Assignment 4-4 Farenheit Temp\Assignment 4-4 Farenheit Temp\Source.cpp(9,61): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  Assignment 4-4 Farenheit Temp.vcxproj -> C:\Users\Gabriel\source\repos\Assignment 4-4 Farenheit Temp\x64\Debug\Assignment 4-4 Farenheit Temp.exe

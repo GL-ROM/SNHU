@@ -1,0 +1,6 @@
+Toronto 8 C
+Lima 18 C
+Istanbul 13 C
+Lagos 27 C
+Shanghai 16 C
+Sydney 17 C
