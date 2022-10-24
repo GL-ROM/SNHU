@@ -1,0 +1,16 @@
+﻿  Source.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\OpenGL\GLFW\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\OpenGL\stb_image\Cylinder.cpp(607,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\OpenGL\stb_image\Cylinder.cpp(607,20): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\OpenGL\stb_image\Cylinder.cpp(675,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\OpenGL\stb_image\Cylinder.cpp(675,20): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\Gabriel\source\repos\cs330_project_two_gabriel_romero\cs330_project_two_gabriel_romero\Source.cpp(358,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Gabriel\source\repos\cs330_project_two_gabriel_romero\cs330_project_two_gabriel_romero\Source.cpp(481,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Gabriel\source\repos\cs330_project_two_gabriel_romero\cs330_project_two_gabriel_romero\Source.cpp(482,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Gabriel\source\repos\cs330_project_two_gabriel_romero\cs330_project_two_gabriel_romero\Source.cpp(486,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Gabriel\source\repos\cs330_project_two_gabriel_romero\cs330_project_two_gabriel_romero\Source.cpp(487,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Gabriel\source\repos\cs330_project_two_gabriel_romero\cs330_project_two_gabriel_romero\Source.cpp(489,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Gabriel\source\repos\cs330_project_two_gabriel_romero\cs330_project_two_gabriel_romero\Source.cpp(490,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Gabriel\source\repos\cs330_project_two_gabriel_romero\cs330_project_two_gabriel_romero\Source.cpp(500,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  cs330_project_two_gabriel_romero.vcxproj -> C:\Users\Gabriel\source\repos\cs330_project_two_gabriel_romero\Debug\cs330_project_two_gabriel_romero.exe
