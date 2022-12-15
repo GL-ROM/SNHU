@@ -54,7 +54,7 @@ class AnimalShelter(object):
     def delete(self, search=None):
         if search:
             deletedDocument = self.database.animals.delete_one( search )
-            return self.convertToJSON(deletedDocument.raw_result
+            return self.convertToJSON(deletedDocument.raw_result)
           
         else:
             raise Exception("Delete unsuccessful")
