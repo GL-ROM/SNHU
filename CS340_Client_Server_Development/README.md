@@ -1,0 +1,13 @@
+# SNHU CS340
+
+## How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
+
+Writing programs in a modular way allows for ease of use and upgrades. This means you can easily pull what you need to from the module and edit smaller details than having everything become one giant spaghetti monster. This prevents issues where an unknown change can cause the entire project to crash. I can see the use for the CRUD module being used in a fully functional dashboard that allows users the full use of its features. This would have to come with and authentication and logging step for security purposes but that would be one of the uses. 
+
+## How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+
+I approach things piecewise. I like to take my time and really think out the solutions. Most of the time the first thing that comes to mind isn't going to be the most efficient way of doing things so its best to take your time and think things through. I guess one could say that iterations are key and to focus on simplifying after a working model has been generated. This of course depends on time and scope but that would be the general idea. Definitely the focus on modules over monolithic approach. This is what I would take with me moving forward. 
+
+## What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+
+Computer scientist enable easier data access and efficiency. Their job is to make other jobs simpler, neater and cleaner. Takes a lot of elegance to do that but giving the scope and the full suite of data it can be achieved. You take tasks such as looking for a specific breed of dog like Grazioso Salvare and instead of it being this long winded query you need to write in the database, a user can hit a button and the data is there at their fingertips.  
