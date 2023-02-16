@@ -4,10 +4,18 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var hbs = require('hbs');
+var mongoose = require('mongoose')
+require('./app_api/database/db');
+
+// Possible fix to issue with it not loading from Zip File
+const host = process.env.DB_HOST || '127.0.0.1'
+const dbURI = `mongodb://${host}/travlr`;
+mongoose.connect(dbURI);
 
 var indexRouter = require('./app_server/routes/index');
 var usersRouter = require('./app_server/routes/users');
-const travelRouter = require('./app_server/routes/travel')
+const travelRouter = require('./app_server/routes/travel');
+const apiRouter = require('./app_api/routes/index');
 
 var app = express();
 
@@ -27,6 +35,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/travel', travelRouter);
+app.use('/api', apiRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
