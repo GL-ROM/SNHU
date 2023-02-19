@@ -7,11 +7,6 @@ var hbs = require('hbs');
 var mongoose = require('mongoose')
 require('./app_api/database/db');
 
-// Possible fix to issue with it not loading from Zip File
-const host = process.env.DB_HOST || '127.0.0.1'
-const dbURI = `mongodb://${host}/travlr`;
-mongoose.connect(dbURI);
-
 var indexRouter = require('./app_server/routes/index');
 var usersRouter = require('./app_server/routes/users');
 const travelRouter = require('./app_server/routes/travel');
@@ -31,6 +26,14 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
+// Allow CORS
+app.use('/api', (req, res, next) => {
+  res.header('Access-Control-Allow-Origin', 'http://localhost:4200');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+  next();
+});
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
