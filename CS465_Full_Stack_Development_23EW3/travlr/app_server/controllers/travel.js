@@ -42,8 +42,8 @@ const travelList = (req, res) => {
           }
           renderTravelList(req, res, body);
         }
-    )
-}
+    );
+};
 const travel = (req, res) => {
   res.render('travel', { title: 'Travlr Getaways', trips});
 };
